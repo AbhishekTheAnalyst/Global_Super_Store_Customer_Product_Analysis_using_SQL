@@ -72,6 +72,8 @@
 
 --Ordering the results by the Total_Profit.
 
+![image](https://github.com/AbhishekTheAnalyst/Global_Super_Store_Customer_Product_Analysis_using_SQL/assets/109465334/af47ea5a-0ad6-4490-b150-cf01a5eb4fdd)
+
 5.)	**What is the distribution of customers and total orders placed across different segments (e.g., consumer, corporate, home office)?**
 
 --Selecting the Segment and calculating the count of distinct customer ID and count of orders from the 'Global Superstore' table.
