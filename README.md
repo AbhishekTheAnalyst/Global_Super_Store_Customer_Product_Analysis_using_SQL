@@ -72,7 +72,23 @@
 
 --Ordering the results by the Total_Profit.
 
-**ORDER BY** Total_Profit **DESC**;
+5.)	**What is the distribution of customers and total orders placed across different segments (e.g., consumer, corporate, home office)?**
+
+--Selecting the Segment and calculating the count of distinct customer ID and count of orders from the 'Global Superstore' table.
+
+**SELECT** Segment, **COUNT (DISTINCT** Customer_ID) **AS** Customer_Count, **COUNT**(Order_ID) **AS** Total_Orders_Placed
+
+--Retrieving the data from the ‘Global Superstore’ Table.
+
+**FROM** [Global Superstore data]
+
+--Grouping the results by Segment.
+
+**GROUP BY** Segment
+
+--Ordering the results by the Count of Distinct Customers in Descending order.
+
+**ORDER BY** Customer_Count **DESC**, Total_Orders_Placed;
 
 ![image](https://github.com/AbhishekTheAnalyst/Global_Super_Store_Customer_Product_Analysis_using_SQL/assets/109465334/f6edf3f5-25fa-47c7-8e20-4011de20ecc6)
 
