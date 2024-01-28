@@ -94,5 +94,23 @@
 
 ![image](https://github.com/AbhishekTheAnalyst/Global_Super_Store_Customer_Product_Analysis_using_SQL/assets/109465334/f6edf3f5-25fa-47c7-8e20-4011de20ecc6)
 
+6.)	**Which are the top 10 countries with the highest number of customers?**
 
+--Selecting the TOP 10 Countries and calculating the count of distinct customer ID as Total Customers from the 'Global Superstore' table.
+
+**SELECT TOP 10** Country, **COUNT(DISTINCT** Customer_ID) AS Total_Customers
+
+--Retrieving the data from the ‘Global Superstore’ Table.
+
+**FROM** [Global Superstore data]
+
+--Grouping the results by Country.
+
+**GROUP BY** Country
+
+--Ordering the results by the Count of Distinct Customers in Descending order.
+
+**ORDER BY** Total_Customers **DESC**;
+
+![image](https://github.com/AbhishekTheAnalyst/Global_Super_Store_Customer_Product_Analysis_using_SQL/assets/109465334/56335095-502c-4b5c-b22b-9188527a3ef3)
 
