@@ -114,3 +114,5 @@
 
 ![image](https://github.com/AbhishekTheAnalyst/Global_Super_Store_Customer_Product_Analysis_using_SQL/assets/109465334/56335095-502c-4b5c-b22b-9188527a3ef3)
 
+7.) 
+
